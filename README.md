@@ -38,4 +38,4 @@ This project is licensed under the MIT license. See the LICENSE file for details
 
 ### Support:
 
-For any inquiries or issues, please contact [contact email]. Bug reports and feature requests are welcome.
+For any inquiries or issues, please contact azimjon.works@gmail.com. Bug reports and feature requests are welcome.
