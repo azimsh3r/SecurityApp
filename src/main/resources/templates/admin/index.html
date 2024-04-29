@@ -1,0 +1,15 @@
+<!Doctype>
+<html xmlns:th="https://www.thymeleaf.org">
+    <head>
+        <title>Admin Page</title>
+    </head>
+    <body>
+        <div th:if="${!personList.isEmpty()}" th:each="person : ${personList}">
+            <p th:text="${person.getUsername()}"></p>
+            <p th:text="${person.getRole()}"></p>
+        </div>
+        <div th:if="${personList.isEmpty()}">
+            <p>The list is empty</p>
+        </div>
+    </body>
+</html>
